@@ -29,6 +29,6 @@ package eu.thesimplecloud.module.hubcommand.config
  * @author Frederick Baier
  */
 class HubCommandConfig(
-    val alreadyLobbyMessage: String = "§cYou are already on a lobby server",
-    val sendingToLobbyMessage: String = "§7Connecting to a lobby server..."
+    val alreadyLobbyMessage: String = "§cProxy §8» §7Du bist bereits auf der Lobby!",
+    val sendingToLobbyMessage: String = "§cProxy §8» §7Du wirst auf eine Lobby verbunden!"
 )
