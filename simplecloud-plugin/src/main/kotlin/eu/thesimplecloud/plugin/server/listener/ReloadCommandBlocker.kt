@@ -45,7 +45,7 @@ class ReloadCommandBlocker : Listener {
         ) {
             if (player.hasPermission("bukkit.command.reload")) {
                 event.isCancelled = true
-                player.sendMessage("§cCloud-Servers cannot be reloaded")
+                player.sendMessage("§cServer §8» §cUnterserver können nicht gereloadet werden!")
             }
         }
     }
