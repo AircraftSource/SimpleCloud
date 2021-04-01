@@ -31,9 +31,9 @@ package eu.thesimplecloud.module.notify.config
 class DefaultConfig {
     companion object {
         fun get(): Config {
-            return Config("§8[§e»§8] §f%SERVICE%",
-                    "§8[§a»§8] §f%SERVICE%",
-                    "§8[§c«§8] §f%SERVICE%",
+            return Config("§cCloud §8» §7Der Service §f%SERVICE% §astartet§7...",
+                    "§cCloud §8» §7Der Service §f%SERVICE% §7 ist §agestartet§!.",
+                    "§cCloud §8» §7Der Service §f%SERVICE% §4stoppt§7...",
                     "§7§oClick to connect")
         }
     }
